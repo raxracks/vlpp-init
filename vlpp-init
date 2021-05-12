@@ -1,9 +1,5 @@
 offline='false'
 
-print_usage() {
-  printf "Usage: ..."
-}
-
 while getopts 'o' flag; do
   case "${flag}" in
     o) offline='true' ;;
@@ -14,7 +10,7 @@ done
 
 if $offline == "true"
 then
-    cp /bin/vlpp-template/* .
+    cp -r /bin/vlpp-template/* .
 else
     git clone https://github.com/raxracks/vlpp-template
     mv vlpp-template/* .

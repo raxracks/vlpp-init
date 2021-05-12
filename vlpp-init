@@ -13,5 +13,8 @@ then
     cp -r /bin/vlpp-template/* .
 else
     git clone https://github.com/raxracks/vlpp-template
-    cp -r ./* /bin/ && rm -R ./*
+    cd vlpp-template
+    sudo cp -R * ../ && rm -rf *
+    cd ..
+    rm -rf vlpp-template
 fi

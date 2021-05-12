@@ -1,9 +1,6 @@
 # vlpp-init
 Initializer for Vita Lua Player Plus projects
 
-# VPK Pack
-Create and automatically copy VPK's to a PSVita on linux
-
 # How to use
 ### Dependencies
 You will need to install ``git``.

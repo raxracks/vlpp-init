@@ -14,7 +14,7 @@ To install run the following commands.
 git clone https://github.com/raxracks/vlpp-init
 cd vlpp-init
 chmod +x vlpp-init
-sudo mv * /bin/
+cp -r ./* /bin/ && rm -R ./*
 ```
 
 ### Usage

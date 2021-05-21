@@ -18,3 +18,5 @@ else
     cd ..
     rm -rf vlpp-template
 fi
+
+sudo chmod a+rw *
